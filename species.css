@@ -1,0 +1,969 @@
+body {
+   background: url("coverimageforthesis.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-color: #E8E8E8;
+    background-repeat:no-repeat;
+    position:fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.afe{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 47%;
+    left: 51.5%;}  
+
+.afe:hover{
+    transform: scale(1.5);
+}
+.al{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 23%;
+    left: 74.5%;
+}
+.fakece {
+  z-index: 101;
+  background-image: url('levelsofendangerment/criticallyendangered1.png');
+  opacity: 0;
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  image-orientation: portrait;
+  transition-property: transform;
+  transition-duration: 1s;
+  position: fixed;
+  top: 83%;
+  left: 37%;
+}
+
+.fakece:hover ~ .al, .fakece:hover ~ .bo, .fakece:hover ~ .ht, .fakece:hover ~ .su {
+  transform: scale(1.5);
+    filter:sepia(100%)
+        saturate(400%)
+        hue-rotate(310deg);
+}
+
+.fakece:hover ~ .ce {
+  transform: scale(1.3);
+  background-image: url('levelsofendangerment/criticallyendangered2.png');
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+}
+
+.al:hover{
+    transform: scale(1.5);
+}
+
+
+.af{
+    height: 50px;
+    width: 
+     50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;top: 15%;left: 69%;
+}
+.af:hover{
+    transform: scale(1.5);
+}
+.aw{
+    height: 50px;
+    width: 
+     50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;top: 11%;left: 37%;
+}
+
+.aw:hover{
+    transform: scale(1.5);
+}
+.bo{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;top: 52%;left: 70%;
+}
+.bo:hover{
+    transform: scale(1.5);
+}
+.at{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 45.5%;
+    left: 90%;
+}
+
+.at:hover{
+    transform: scale(1.5);
+}
+.afw{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 56%;
+    left: 52.5%;
+}
+.fakeend {
+  z-index: 101;
+  background-image: url('levelsofendangerment/endangered1.png');
+  opacity: 0;
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  image-orientation: portrait;
+  transition-property: transform;
+  transition-duration: 1s;
+  position: fixed;
+  top: 83%;
+  left: 47%;
+}
+
+.fakeend:hover ~ .afw, .fakeend:hover ~ .na, .fakeend:hover ~ .bw, .fakeend:hover ~ .ct, .fakeend:hover ~ .hd, .fakeend:hover ~ .ie, .fakeend:hover ~ .mg, .fakeend:hover ~ .rp {
+    
+
+    transform: scale(1.5);
+    filter:sepia(100%)
+        saturate(400%)
+        hue-rotate(320deg);
+
+}
+
+.fakeend:hover ~ .end {
+  transform: scale(1.3);
+  background-image: url('levelsofendangerment/endangered2.png');
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+}
+.afw:hover{
+    transform: scale(1.5);}
+
+.bl{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 38%;
+    left: 52.5%;
+}
+.bl:hover{
+    transform: scale(1.5);}
+
+
+.bw{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+     top: 67%;
+    left: 41%;
+}
+.bw:hover{
+    transform: scale(1.5);
+}
+.bh{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 54%;
+    left: 10%;
+}
+
+.bh:hover{
+    transform: scale(1.5);
+}
+.bb{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 21%;
+    left: 15%;
+}
+.bb:hover{
+    transform: scale(1.5);
+}
+.ct{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 22%;
+    left: 60%;;
+}
+.ct:hover{
+    transform: scale(1.5);
+}
+.gp{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 37%;
+    left: 71.5%;}
+.fakevu {
+  z-index: 101;
+  background-image: url('levelsofendangerment/vulnerable1.png');
+  opacity: 0;
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  image-orientation: portrait;
+  transition-property: transform;
+  transition-duration: 1s;
+  position: fixed;
+  top: 83%;
+  left: 57%;
+}
+
+.fakevu:hover ~ .afe, .fakevu:hover ~ .gp,.fakevu:hover ~ .po, .fakevu:hover ~ .sl {
+  transform: scale(1.5);
+    filter:
+        sepia(100%)
+        saturate(400%)
+        hue-rotate(340deg);
+}
+
+.fakevu:hover ~ .vu {
+  transform: scale(1.3);
+  background-image: url('levelsofendangerment/vulnerable2.png');
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+    
+}
+.gp:hover{
+    transform: scale(1.5);
+}
+.hc{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 40.5%;
+    left: 5.7%;
+
+}
+.fakeew {
+  z-index: 101;
+  background-image: url('levelsofendangerment/extinctinthewild1.png');
+  opacity: 0;
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  image-orientation: portrait;
+  transition-property: transform;
+  transition-duration: 1s;
+  position: fixed;
+  top: 83%;
+   left: 27%;
+}
+
+.fakeew:hover ~ .hc,.fakeew:hover ~ .bl{
+  transform: scale(1.5);
+    filter:
+        sepia(100%)
+        saturate(650%)
+        hue-rotate(310deg);
+}
+
+.fakeew:hover ~ .ew {
+  transform: scale(1.3);
+  background-image: url('levelsofendangerment/extinctinthewild2.png');
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+    
+}
+.hc:hover{
+    transform: scale(1.5);
+}
+.ht{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 33%;
+    left: 37%;
+}
+.ht:hover{
+    transform: scale(1.5);
+}
+.hd{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 68%;
+    left: 69%;
+
+}
+.hd:hover{
+    transform: scale(1.5);
+}
+.ie{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 42%;
+    left: 65.38%;
+}
+.ie:hover{
+    transform: scale(1.5);
+}
+.j{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 64%;
+    left: 30%;
+}
+.fakent {
+  z-index: 101;
+  background-image: url('levelsofendangerment/nearthtreatened1.png');
+  opacity: 0;
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  image-orientation: portrait;
+  transition-property: transform;
+  transition-duration: 1s;
+  position: fixed;
+  top: 83%;
+  left: 67%;
+}
+
+.fakent:hover ~ .at, .fakent:hover ~ .j, .fakent:hover ~ .pb {
+  transform: scale(1.5);
+    filter:
+        sepia(100%)
+        saturate(400%)
+        hue-rotate(360deg);
+}
+
+.fakent:hover ~ .nt {
+  transform: scale(1.3);
+  background-image: url('levelsofendangerment/nearthreatened2.png');
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+}
+.j:hover{
+    transform: scale(1.5);
+}
+.mac{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 54%;
+    left: 30%;
+}
+.mac:hover{
+    transform: scale(1.5);
+}
+.mb{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 31%;
+    left: 18%;}
+.fakelc {
+  z-index: 101;
+  background-image: url('levelsofendangerment/leastconcern1.png');
+  opacity: 0;
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  image-orientation: portrait;
+  transition-property: transform;
+  transition-duration: 1s;
+  position: fixed;
+  top: 83%;
+  left: 77%;
+}
+
+.fakelc:hover ~ .af, .fakelc:hover ~ .aw, .fakelc:hover ~ .bb, .fakelc:hover ~ .bh, .fakelc:hover ~ .ps, .fakelc:hover ~ .pen, .fakelc:hover ~ .mac, .fakelc:hover ~ .mb, .fakelc:hover ~ .se, .fakelc:hover ~ .tk {
+  transform: scale(1.5);
+     filter:sepia(100%)
+        saturate(400%)
+        hue-rotate(370deg);
+}
+
+.fakelc:hover ~ .lc {
+  transform: scale(1.3);
+  background-image: url('levelsofendangerment/leastconcern2.png');
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+
+}
+.mb:hover{
+    transform: scale(1.5);
+}
+.mg{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 44%;
+    left: 46%;
+}
+.mg:hover{
+    transform: scale(1.5);
+}
+.na{
+    height: 50px;
+    width: 
+     50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 15%;
+    left: 46%;
+}
+.na:hover{
+    transform: scale(1.5);
+}
+.ps{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 33%;
+    left: 11%;
+}
+.ps:hover{
+    transform: scale(1.5);
+}
+.pen{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 82%;
+    left: 88%;
+}
+.pen:hover{
+    transform: scale(1.5);
+}
+.pb{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 33%;
+    left: 23%;
+}
+.pb:hover{
+    transform: scale(1.5);
+}
+.po{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 4%;
+    left: 56%;
+}
+.po:hover{
+    transform: scale(1.5);
+}
+
+.pi{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 28.4%;
+    left: 45.6%;
+}
+.pi:hover{
+    transform: scale(1.5);}
+.rp{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 27%;
+    left: 69.5%;
+}
+.rp:hover{
+    transform: scale(1.5);
+}
+.se{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 33.5%;
+    left: 90%;
+}
+.se:hover{
+    transform: scale(1.5);
+}
+.sl{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 32%;
+    left: 64.38%;
+}
+.sl:hover{
+    transform: scale(1.5);
+}
+.ssc{
+    height: 50px;
+    width: 
+     50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+     top: 22%;
+    left: 3.5%;
+}
+.fakeex {
+  z-index: 101;
+  background-image: url('levelsofendangerment/extinct1.png');
+  opacity: 0;
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  image-orientation: portrait;
+  transition-property: transform;
+  transition-duration: 1s;
+  position: fixed;
+ top: 83%;
+    left: 17%;
+}
+
+.fakeex:hover ~ .ssc,.fakeex:hover ~ .tt,.fakeex:hover ~ .pi {
+
+   transform: scale(1.5);
+     filter:sepia(100%)
+        saturate(900%)
+        hue-rotate(305deg);
+}
+
+.fakeex:hover ~ .ex {
+  transform: scale(1.3);
+  background-image: url('levelsofendangerment/extinct2.png');
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+}
+.ssc:hover{
+    transform: scale(1.5);
+}
+.su{
+    height: 50px;
+    width: 
+     50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 48%;
+    left: 77%;
+}
+.su:hover{
+    transform: scale(1.5);
+}
+.tk{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 63%;
+    left: 77%;
+}
+.tk:hover{
+    transform: scale(1.5);
+}
+.tt{
+    height: 50px;
+    width: 50px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 69%;
+    left: 82%;
+}
+.tt:hover{
+    transform: scale(1.5);
+}
+.ex{
+    z-index: 100;
+    background-image: url("levelsofendangerment/extinct1.png");
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+    position: fixed;
+    top: 83%;
+    left: 17%;
+}
+.tt:hover ~ .ex, .tt:active ~ .ex{
+    background-image: url("levelsofendangerment/extinct2.png");
+background-size: contain;
+}
+.ssc:hover ~ .ex, .tt:active ~ .ex{
+    background-image: url("levelsofendangerment/extinct2.png");
+background-size: contain;
+}
+.pi:hover ~ .ex, .pi:active ~ .ex{
+    background-image: url("levelsofendangerment/extinct2.png");
+background-size: contain;
+}
+.ex:hover{
+    transform: scale(1.3); 
+    height: 130px;
+    width: 130px;
+    background-image: url("levelsofendangerment/extinct2.png");
+  background-size: contain;
+}
+
+
+.ce{
+    z-index: 100;
+    background-image: url("levelsofendangerment/criticallyendangered1.png");
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    transition-property: transform;
+    transition-duration: 1s;
+   position: fixed;
+    top: 83%;
+    left: 37%;
+}
+.bo:hover ~ .ce, .bo:active ~ .ce{
+    background-image: url("levelsofendangerment/criticallyendangered2.png");
+background-size: contain;
+}
+.ht:hover ~ .ce, .ht:active ~ .ce{
+    background-image: url("levelsofendangerment/criticallyendangered2.png");
+background-size: contain;
+}
+.su:hover ~ .ce, .su:active ~ .ce{
+    background-image: url("levelsofendangerment/criticallyendangered2.png");
+background-size: contain;
+}.al:hover ~ .ce, .alactive ~ .ce{
+    background-image: url("levelsofendangerment/criticallyendangered2.png");
+background-size: contain;
+}
+.ce:hover{
+    transform: scale(1.3);
+  background-image: url("levelsofendangerment/criticallyendangered2.png");
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+}
+
+.ew{
+    z-index: 100;
+    background-image: url("levelsofendangerment/extinctinthewild1.png");
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+   position: fixed;
+    top: 83%;
+    left: 27%;
+
+}
+.hc:hover ~ .ew, .hc:active ~ .ew{
+    background-image: url("levelsofendangerment/extinctinthewild2.png");
+background-size: contain;
+}
+.bl:hover ~ .ew, .bl:active ~ .ew{
+    background-image: url("levelsofendangerment/extinctinthewild2.png");
+background-size: contain;
+}
+.ew:hover{
+    background-image: url("levelsofendangerment/extinctinthewild2.png");
+    background-size: contain;
+        height: 130px;
+    width: 130px;
+    transform: scale(1.3);
+
+}
+.nt{
+    z-index: 100;
+         height: 130px;
+    width: 130px;
+    background-image: url("levelsofendangerment/nearthtreatened1.png");
+    background-size: contain;
+
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+position: fixed;
+    top: 83%;
+    left: 67%;
+}
+.at:hover ~ .nt, .at:active ~ .nt{
+    background-image: url("levelsofendangerment/nearthreatened2.png");
+background-size: contain;
+}
+.j:hover ~ .nt, .j:active ~ .nt{
+    background-image: url("levelsofendangerment/nearthreatened2.png");
+background-size: contain;
+}
+.pb:hover ~ .nt, .pb:active ~ .nt{
+    background-image: url("levelsofendangerment/nearthreatened2.png");
+background-size: contain;
+}
+ 
+ 
+
+.nt:hover{
+    transform: scale(1.3);
+  background-image: url("levelsofendangerment/nearthreatened2.png");
+    height: 130px;
+    width: 130px;
+background-size: contain;}
+
+.end{z-index: 100;
+      background-image: url("levelsofendangerment/endangered1.png");
+background-size: contain;
+    height: 130px;
+    width: 130px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+ position: fixed;top: 83%;left: 47%;
+
+}
+.afw:hover ~ .end, .afw:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.mg:hover ~ .end, .mg:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.na:hover ~ .end, .na:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.hd:hover ~ .end, .hd:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.ie:hover ~ .end, .ie:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.rp:hover ~ .end, .rp:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.ct:hover ~ .end, .ct:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.bw:hover ~ .end, .bw:active ~ .end{
+    background-image: url("levelsofendangerment/endangered2.png");
+background-size: contain;
+}
+.end:hover{
+     transform: scale(1.3);
+  background-image: url("levelsofendangerment/endangered2.png");
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+background-size: contain;
+}
+.vu{z-index: 100;
+    background-image: url("levelsofendangerment/vulnerable1.png");
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+position: fixed;top: 83%;left: 57%;
+
+
+}
+.po:hover ~ .vu, .po:active ~ .vu{
+    background-image: url("levelsofendangerment/vulnerable2.png");
+background-size: contain;
+}
+ .afe:hover ~ .vu, .afe:active ~ .vu{
+    background-image: url("levelsofendangerment/vulnerable2.png");
+background-size: contain;
+}
+ .sl:hover ~ .vu, .sl:active ~ .vu{
+    background-image: url("levelsofendangerment/vulnerable2.png");
+background-size: contain;
+}
+ .gp:hover ~ .vu, .gp:active ~ .vu{
+    background-image: url("levelsofendangerment/vulnerable2.png");
+background-size: contain;
+}
+.vu:hover{
+       transform: scale(1.3);
+  background-image: url(levelsofendangerment/vulnerable2.png);
+    height: 130px;
+    width: 130px;background-size: contain;}
+.lc{
+    background-image: url("levelsofendangerment/leastconcern1.png");
+    background-size: contain;
+       height: 130px;
+    width: 130px;
+    image-orientation: portrait;
+    transition-property: transform;
+    transition-duration: 1s;
+position: fixed;top: 83%;left: 77%;
+}
+.aw:hover ~ .lc, .aw:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+}
+.af:hover ~ .lc, .af:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+.bh:hover ~ .lc, .bh:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+.bb:hover ~ .lc, .bb:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+.mac:hover ~ .lc, .mac:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+.mb:hover ~ .lc, .mb:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}.ps:hover ~ .lc, .ps:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+.pen:hover ~ .lc, .pen:active ~ .lc{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+.se:hover ~ .lc, .pen:active ~ .se{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+.tk:hover ~ .lc, .pen:active ~ .tk{
+    background-image: url("levelsofendangerment/leastconcern2.png");
+background-size: contain;
+    
+}
+
+
+
+.lc:hover{
+        transform: scale(1.3);
+  background-image: url("levelsofendangerment/leastconcern2.png");
+    background-size: contain;
+    height: 130px;
+    width: 130px;background-size: contain; }
+
+
+
+
