@@ -1,0 +1,103 @@
+body {
+    font-family:'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
+    background-position: center;
+    background-size: cover;
+    background-repeat:repeat;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+/*To help keep the footer on the bottom*/
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex: 1
+}
+
+
+/*HEADER*/
+
+header {
+    margin: 0px;
+    padding: 0px;
+    background: url(file:///Network/artfiles/home/molloy/Desktop/ye.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -16px;
+
+    
+}
+
+
+
+
+/*INNER ELEMENTS*/
+
+.inner-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.work-images {
+    margin: 10px 10px;
+}
+
+.image-collection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content {
+    margin-bottom: 20px;
+}
+
+.about-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    padding: 10px;
+    margin: auto 0;
+}
+
+
+
+.lineThree{
+  font-family:'Gotham' ;
+    font-size: 25px;
+margin-left: 100px;}
+.line{
+  font-family:'Gotham' ;
+    font-size: 12px;
+margin-left: 120px;}
+
+
+
